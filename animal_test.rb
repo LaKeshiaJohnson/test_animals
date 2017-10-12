@@ -45,7 +45,7 @@ def test_initialize_with_one_argument
 	end
 
 
-	def test_if_name_is_an_accessible_property
+	def test_if_name_is_string
 		assert_instance_of String, @cat.name
 		assert_instance_of String, @owl.name
 
